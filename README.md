@@ -27,12 +27,25 @@ Afficher le score, le numéro de niveau et un bouton demarrer et arreter
 
 ## Css
 
+Il faut des classes css pour chaque couleur, lors de l'utilisation du main.js, certaines couleurs vont avoir un hover pour modifier légerement la couleur pour la séléction.
+
 ## Js
 
 - Au click de start, une fonction pour lancer le programme du jeu (la div du niveau correspondant)
 
-- Le main js : Une boucle qui sincremente à chaque bonee réponse:
-    - chaque bouton aura une valeur.
-    - un tableau sera rempli aléatoirement d'une de ces valeurs a chaque bonne réponse
-    - parcour du tableau afin d'illuminer le bon bouton avec la valeur correspondant 
-    - promise afin que de regler le temps de parcours du tableau 
+- Le main.js va contenir la fonction principal :
+
+    Une boucle permet de choisir aléatoirement une couleur parmi 4 définis, cette couleur va etre stockée dans un tableau (tab1) -> boucle incrementée pour ajouter une couleur à chauqe tour
+    On parcour le tableau et la/les couleur choisit va s'allumer grace à une classe css correspondante
+    Le joueur dispose de 5 seconde pour répondre sinon il a perdu (Utilisation de promise)
+    Quand le jouer clique sur le bouton correspondant à la couleur, celle-ci va dans un nouveau tableau (tab2)
+    Les Tableaux vont etre comparé, si il sont identique la boucle se fini et on recommence au début/ si non le programme s'arrête
+
+- Le data.js
+
+    Ce fichier va contenir toutes les données à afficher pour le joueur:
+    - nom
+    - prenom
+    - niveau du difficulté
+    - score actuel
+    - bouton start
