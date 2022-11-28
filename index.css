@@ -1,5 +1,23 @@
 .rouge{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: red;
+}
+
+.bleu{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.vert{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.jaune{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
 }
