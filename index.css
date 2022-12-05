@@ -1,24 +1,58 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(doc/bc.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center center;
+    margin: 0;
+}
+
+.data{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.wrapper{
+    width: 508px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
 .red{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: red;
+    border: 2px solid #000;
 }
 
 .blue{
-    width: 200px;
-    height: 200px;
+    width: 250px;   
+    height: 250px;
     background-color: blue;
+    border: 2px solid #000;
 }
 
 .green{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: green;
+    border: 2px solid #000;
 }
 
 .yellow{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: yellow;
+    border: 2px solid #000;
 }
 
