@@ -1,22 +1,22 @@
-.rouge{
+.red{
     width: 200px;
     height: 200px;
     background-color: red;
 }
 
-.bleu{
+.blue{
     width: 200px;
     height: 200px;
     background-color: blue;
 }
 
-.vert{
+.green{
     width: 200px;
     height: 200px;
     background-color: green;
 }
 
-.jaune{
+.yellow{
     width: 200px;
     height: 200px;
     background-color: yellow;
